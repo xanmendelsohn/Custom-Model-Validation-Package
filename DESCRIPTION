@@ -1,0 +1,38 @@
+Package: CredRoE
+Title: Credit Risk Review of Estimates: Statistical Model Performance Analyses for Loss Given Default Models
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alexander",
+           family = "Mendelsohn",
+           role = c("aut", "cre"),
+           email = "xanmendelsohn@gmail.com",
+           comment = c(ORCID = "0000-0001-5860-215X"))
+Description: This package includes functions to perform model performce analyses and review of estimates for regulatory LGD models.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    dplyr,
+    boot,
+    pcaPP,
+    magrittr,
+    tibble,
+    ggplot2,
+    rlang,
+    tidyr,
+    santoku,
+    data.table,
+    stats,
+    formattable,
+    knitr,
+    kableExtra,
+    purrr,
+    Rcpp,
+    Iso
+Depends: 
+    R (>= 2.10)
