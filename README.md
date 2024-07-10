@@ -3,7 +3,7 @@ Review of Estimates Function Package
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-## ‘CredRoE’ <img src="man/figures/Coba_Logo.PNG" align="right" width="144" />
+[## ‘CredRoE’ <img src="man/figures/Coba_Logo.PNG" align="right" width="144" /> ]: #
 
 The ‘CredRoE’ package includes functions to perform model performance
 analyses and review of estimates for reg. LGD models.
